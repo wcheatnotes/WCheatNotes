@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Science Notes</title>
+    <style>
+        body{
+            background-image:url(sky\ blue\ background.png) ;
+            background-size:cover ;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            font-size: 100px;
+            font-family:Arial, Helvetica, sans-serif ;
+            font-weight: bold;
+        }
+        .purchase{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 30px;
+        }
+        .button{
+            display: flex;
+            justify-content: center;
+        }
+        .sci{
+            display:flex;
+            justify-content: center;
+            height:333px;
+            width: 333px;
+            margin:30px;
+        }
+        .science{
+ height:333px;
+            width: 333px;
+            
+        }
+        .text{
+            color: rgb(24, 235, 112);
+            align-items: center;
+        }
+        .te-xt{
+            display: flex;
+            align-items: center;
+        }
+        .button1{
+            height: 133px;
+            width: 433px;
+            background-color: black;
+            color: rgb(24, 235, 112);
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="purchase">
+   <div class="te-xt"> <p class="text">Science Notes</p></div>
+<div class="sci"><img class='science' src="Science.png"></div>
+<div class="button"><a id="but" class="button1" href="Science notes.pdf" download style="display: none;">Download</a></div>
+    </div>
+    <script>
+        window.onload = () => {
+      document.getElementById("but").click();};
+    </script>
+</body>
+</html>
