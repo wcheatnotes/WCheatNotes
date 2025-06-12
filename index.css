@@ -1,40 +1,133 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Class 10 CBSE Notes</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body><div class="container">
-    <div class="main-div">
-        <div class="bannar-div">
-           <div class="bannar">
-            <p class="wnotes">WCheatNotes</p>
-           </div>
-           <div class="text"> <p>Study smarter, not harder. These Class 10 Science notes are designed using the 80/20 rule, focusing only on the 20% of concepts that give you 80% of the marks in board exams.</p>
+body{
+background-color: rgb(255, 255, 255);
+}
+.main-div{
+    display: flex;
+    flex-direction:column;
+    height: 2000px;
+    width: auto;
+    background-color: blue;
+}
+.bannar-div{
+background-color: blueviolet;
+    width:100%;
+    display: flex;
+    height:10%;
+     background-size: contain;
+    background-repeat: repeat;
+    background-color: #2D3E50;
 
-<p>✅ Covers all chapters as per CBSE 2025–26 </p>
-<p>✅ Focus on high-weightage topics, key definitions, diagrams & NCERT patterns</p>
-<p>✅ Simple language and clear explanations</p>
-<p>✅ Perfect for revision and last-minute preparation</p>
-<p>✅ Saves hours of time and improves retention</p>
+}
+.bannar{
+    border: solid black 5px;
+    background-image: url("channels4_banner.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #B0BEC5;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.wnotes{
+    color:#2D3E50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top:80px;
+    font-weight: bolder;
+}
+.subject{
+    height: 20px;
+    width: 20px;
+    color: aliceblue;
+    margin: 30px;
+}
+.subject-div{
+    background-image: url("background.png");
+    background-repeat: repeat;
+    background-size: contain;
+   height: 120%;
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   border: solid black 3px;
+}
+ .text{
+    width:30%;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15PX;
+    border: solid rgb(95, 204, 32) 5px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    padding: 10px;
+ }
+.contact{
+    background-color: rgb(45, 62, 80);
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    order: 99;
+    border: solid black 3px;
+}
+.contact-button{
+    height:65%;
+    width:75%;
+    border-radius: 30px;
+    background-color:#B0BEC5;
+    font-size: 30px;
+    color:#2D3E50;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.subject{
+    height:233px;
+    width: 233px;
+    border: solid black 3px;
+}
+.subject img{
+    height:233px;
+    width:233px;
+}
+.contact-button:hover{
+   background-color:rgb(130, 130, 229);
+}
+.subject:hover{
+    position:relative;
+    right:5px;
 
-<p>Whether you're aiming for a top score or trying to catch up fast, these notes will help you study less and score more.</p>
-
-<p>🛒 Available exclusively on my website. Start scoring smarter today!</p>
-</div>
-    </div>
-  <div class="subject-div">
-    <div class="img">
-        <img class="img-1" src="channels4_profile.jpg">
-    </div>                                                                                                                      
-    <div class="subject">     <a href="sci.html"> <img class="one" src="Science.png" alt="Science">  </a>  </div>
-    <div class="subject sub">      <a href="maths.html"> <img class="one" src="Maths.png" alt="Maths"></a></div>
-    <div class="subject">          <a href="social.html"> <img class="one" src="SST.png" alt="SST"></a></div>
-    <div class="subject sub">     <a href="english.html"><img class="one" src="English.png" alt="English"></a></div>
-    <div class="subject">           <a href="it.html"> <img class="one" src="Information Technology.png" alt="Information Technology"></a></div>
-</div>
-    <div class="contact"><a class="contact-button" href="contact.html">CONTACT
-    </a></div>
-    </div>
-</body>
-</html>
+}
+.one:hover{
+    height: 300px;
+    width: 300px;
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+}
+.sub:hover{
+position: relative;
+right: 100px;;
+}
+.img{
+    position: absolute;
+    top: 30px;
+    left:20px;}
+.img-1{
+height: 100px;
+border-radius: 100%;
+border: solid black 2px;
+}
+.context{
+    border: solid black 3px;
+}
