@@ -114,6 +114,7 @@ background-color: blueviolet;
     height: 300px;
     width: 300px;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.4);
+    border:black solid 3px;
 }
 .sub:hover{
 position: relative;
